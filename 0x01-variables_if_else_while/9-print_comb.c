@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	init digit = 0;
+	int digit = 0;
 
 	while (digit <= 9)
 	{
@@ -22,7 +22,7 @@ int main(void)
 		}
 		digit++;
 	}
-	putchar('\n')
+	putchar('\n');
 
 	return (0);
 
